@@ -5,7 +5,6 @@ pragma solidity ^0.8.12;
 import { ERC1155 } from '@solidstate/contracts/token/ERC1155/ERC1155.sol';
 import { IERC1155 } from '@solidstate/contracts/token/ERC1155/IERC1155.sol';
 import { ERC165Storage } from '@solidstate/contracts/introspection/ERC165Storage.sol';
-// import { MyLib } from '../libraries/MyLib.sol';
 
 contract MySet is ERC1155 {
     using ERC165Storage for ERC165Storage.Layout;

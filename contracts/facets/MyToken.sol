@@ -29,7 +29,6 @@ contract MyToken is ERC20 {
         return EnumerableSet.contains(l.accountsByToken[roleID], account);
     }
 
-
     function initERC20(string calldata name, string calldata symbol, uint8 decimals, uint256 supply) public {
         ERC20MetadataStorage.Layout storage l = ERC20MetadataStorage.layout();
 
