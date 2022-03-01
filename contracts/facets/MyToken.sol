@@ -15,9 +15,7 @@ contract MyToken is ERC20 {
     modifier onlyComptroller (address comptroller) {
         require(comptroller != address(0), "Not valid address");
         ERC1155EnumerableStorage.Layout storage l = ERC1155EnumerableStorage.layout();
-        require(
-            EnumerableSet.contains(l.accountsByToken[1], comptroller) == true, "Not comptroller"
-        );
+        require(EnumerableSet.contains(l.accountsByToken[1], comptroller) == true, "Not comptroller");
         _;
     }
 

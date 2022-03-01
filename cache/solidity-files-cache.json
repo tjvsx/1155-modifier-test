@@ -1417,8 +1417,8 @@
       ]
     },
     "/Users/thomasvanslooten/Projects/diamond-proxy/solidstate-experiments/1155-test/contracts/facets/MyToken.sol": {
-      "lastModificationDate": 1646120922172,
-      "contentHash": "cb0217b2e4ec82076695cdf511b909f3",
+      "lastModificationDate": 1646122534476,
+      "contentHash": "d7e8aecc05bb81f7f2a1a63ad68dd33a",
       "sourceName": "contracts/facets/MyToken.sol",
       "solcConfig": {
         "version": "0.8.12",
